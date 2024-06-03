@@ -33,7 +33,7 @@ forge build
 ## Deploy:
 
 ```
-forge script script/DeploySimpleStorage.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --legacy
+forge script script/DeploySimpleStorage.s.sol 
 ```
 
 # Deployment to a testnet or mainnet
