@@ -1,6 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
+/**
+ * @title A Decentralized Storage Application
+ * @author Taki Baker Alyasri
+ * @notice This contract is for storing and retrieving a favorite number
+ * @dev This contract is deployed via the DeploySimpleStorage.s.sol script
+ */
+
 contract SimpleStorage {
     uint256 myFavoriteNumber;
 
