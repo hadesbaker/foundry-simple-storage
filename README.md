@@ -1,6 +1,6 @@
 # Foundry Fund Me Project
 
-Foundry Fund Me is a blockchain development project written in solidity. This project uses the foundry framework to demonstrate the basic concepts of funding and withdrawing a smart contract as well as testing, deploying, and interacting with the contract via the foundry forge, cast, and anvil tools.
+Foundry Simple Storage is a blockchain development project written in solidity. This project uses the foundry framework to demonstrate the basic concepts of storing and withdrawing variables on a local and test network. 
 
 by Taki Baker Alyasri
 
