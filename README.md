@@ -1,4 +1,4 @@
-# Foundry Fund Me Project
+# Foundry Simple Storage Project
 
 Foundry Simple Storage is a blockchain development project written in solidity. This project uses the foundry framework to demonstrate the basic concepts of storing and withdrawing variables on a local and test network. 
 
@@ -36,32 +36,6 @@ forge build
 forge script script/DeploySimpleStorage.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --legacy
 ```
 
-## Testing
-
-```
-forge test
-```
-
-or 
-
-```
-
-forge test --mt testFunctionName
-```
-
-or
-
-```
-forge test --fork-url $SEPOLIA_RPC_URL
-```
-
-### Test Coverage
-
-```
-forge coverage
-```
-
-
 # Deployment to a testnet or mainnet
 
 1. Setup environment variables
@@ -78,7 +52,7 @@ Optionally, add your `ETHERSCAN_API_KEY` if you want to verify your contract on 
 
 Head over to [faucets.chain.link](https://faucets.chain.link/) and get some testnet ETH. You should see the ETH show up in your metamask.
 
-3. Deploy
+2. Deploy
 
 ```
 forge script script/DeployFundMe.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --verify --etherscan-api-key $ETHERSCAN_API_KEY
